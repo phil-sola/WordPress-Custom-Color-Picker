@@ -16,6 +16,7 @@ This isn't finished and at some point soon, I have a TODO list of additional fea
 
 - GradientPicker built in alongside the swatch for the Background Color
 - Toggle to change the text input from HEX to rgba or hsla instead if preferred (although not sure it adds much)
+- Tidy up the css file
 
 If **you** can think of anything missing as well, I'd love to get any feedback on this.
 

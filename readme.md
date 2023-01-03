@@ -47,7 +47,7 @@ The <ColorPicker> component has 3x Props currently
   },`</pre>
 
 **name**: The attribute name to update the specific attribute\
-**value**: The color code string\
+**value**: The color object containg val & slug\
 **label**: Text label for the individual picker
 
 

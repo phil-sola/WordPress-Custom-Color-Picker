@@ -1,0 +1,36 @@
+{
+	"name": "multi-block-plugin",
+	"private": true,
+	"version": "0.1.0",
+	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"start": "wp-scripts start",
+		"packages-update": "wp-scripts packages-update"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^10.2.0",
+		"@wordpress/blocks": "^11.18.0",
+		"@wordpress/i18n": "^4.19.0",
+		"classnames": "^2.3.2",
+		"colord": "^2.9.3",
+		"phosphor-react": "^1.4.1",
+		"react-colorful": "^5.6.1"
+	},
+	"devDependencies": {
+		"@wordpress/dependency-extraction-webpack-plugin": "^4.2.0",
+		"@wordpress/scripts": "^24.3.0",
+		"clean-webpack-plugin": "^4.0.0",
+		"css-loader": "^6.5.1",
+		"mini-css-extract-plugin": "^2.4.4",
+		"sass-loader": "^12.3.0",
+		"style-loader": "^3.3.1",
+		"webpack-livereload-plugin": "^3.0.2"
+	}
+}

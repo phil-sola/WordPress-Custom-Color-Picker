@@ -1,0 +1,167 @@
+.color-control-section-title {
+	margin-block: 0.75em !important;
+}
+
+.wps-color-picker-wrapper {
+	width: 100%;
+	padding: 10px 12px;
+	border: 1px solid #efebeb;
+}
+
+.components-popover__content {
+	outline-color: #efebeb;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.wps-color-picker-wrapper .swatch {
+	width: 25px;
+	height: 22px;
+	border-radius: 50%;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+
+.wps-color-picker-wrapper .popover {
+	position: absolute;
+	top: calc(100% + 2px);
+	left: 0;
+	border-radius: 9px;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.wps-color-picker-wrapper .wps-label-text {
+	font-size: 14px;
+	font-weight: 500;
+	margin-right: 6px;
+	text-transform: unset;
+}
+
+.wps-color-picker-component {
+	width: 100%;
+	min-width: 250px;
+	box-shadow: 0 0 18px 0 rgb(0 0 0 / 10%);
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+.wps-color-picker-component__header {
+	padding: 10px;
+}
+
+.wps-color-picker-component .react-colorful {
+	width: 100%;
+}
+
+.wps-color-picker-component .react-colorful__saturation {
+	border-radius: 0;
+	border-bottom: 0;
+	margin-bottom: 5px;
+}
+
+.wps-color-picker-component .react-colorful__alpha,
+.wps-color-picker-component .react-colorful__hue {
+	height: 12px;
+	margin: 8px 10px;
+	border-radius: 10px;
+}
+
+.wps-color-picker-component .wps-color-picker-component__color-guide {
+	margin: 8px 10px;
+}
+
+.wps-color-picker-component .react-colorful__pointer {
+	width: 16px;
+	height: 16px;
+}
+
+.wps-color-picker-component .hex-input {
+	max-width: 75px;
+	font-size: 12px;
+	border: none;
+	border-bottom: 1px solid #f7f7f7;
+}
+
+.wps-color-picker-component .hex-input:focus {
+	outline: none;
+}
+
+
+.wps-color-picker-component .copy-hex-input {
+	cursor: pointer;
+}
+
+.wps-color-picker-component svg:hover,
+.wps-color-picker-component svg:focus,
+.wps-color-picker-component svg:active {
+	color: royalblue;
+	fill: royalblue;
+}
+
+.components-circular-option-picker__option-wrapper,
+.components-circular-option-picker__option:focus:after {
+	height: 22px;
+	width: 22px;
+	border-width: 1px;
+}
+
+.components-circular-option-picker__option:focus:after {
+	top: 0;
+	left: 0;
+	box-shadow: inset 0 0 0 1px rgb(0 0 0 / 20%);
+	border: 1px solid transparent;
+}
+
+.components-button.is-pressed:focus:not(:disabled){
+	box-shadow: none;
+	border: none;
+	outline: none;
+}
+
+.components-circular-option-picker__option {
+	padding: 0;
+}
+
+.components-circular-option-picker__option.is-pressed+svg {
+	width: 18px;
+	height: 18px;
+}
+
+.wps-color-tints-wrap .components-base-control {
+	width: 100%;
+}
+
+.wps-color-tints-wrap .components-toggle-group-control {
+	border: none;
+	min-height: unset;
+	height: 35px;
+}
+
+.wps-color-tints-wrap .components-toggle-group-control-option-base {
+	border-radius: 0;
+}
+
+.hide-toggle {
+	display: none !important;
+	animation: fadeOut 0.4s ease-in-out;
+}
+
+.show-toggle {
+	display: flex !important;
+	animation: fadeIn 0.4s ease-in;
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+	from { opacity: 1; }
+	to { opacity: 0; }
+}
+
